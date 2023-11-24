@@ -58,10 +58,10 @@ const Footer = () => {
                           <div className="col-md-3 mb-md-0 mb-4 border-left">
                              <h2 className="footer-heading">Social</h2>
                              <ul className="list-unstyled">
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img src={ic1} style={{height:20 ,width:20}} alt="" /> Facebook</a></li>
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img src={ic4} style={{ height: 20, width: 20 }} alt="" /> X - (Twitter)</a></li>
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img src={ic2} style={{ height: 20, width: 20 }} alt="" /> Instagram</a></li>
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img src={ic3} style={{ height: 20, width: 20 }} alt="" /> YouTube</a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=61553615871015" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img src={ic1} style={{height:20 ,width:20}} alt="" /> Facebook</a></li>
+                                <li><a href="https://twitter.com/victa_official" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img src={ic4} style={{ height: 20, width: 20 }} alt="" /> X - (Twitter)</a></li>
+                                <li><a href="https://www.instagram.com/victa.official/" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img src={ic2} style={{ height: 20, width: 20 }} alt="" /> Instagram</a></li>
+                                <li><a href="https://www.linkedin.com/in/victa-capital-13081229a/" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img src={ic3} style={{ height: 20, width: 20 }} alt="" /> YouTube</a></li>
                                 <li></li>
                                 {/* <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Googleplus</a></li> */}
                                  
