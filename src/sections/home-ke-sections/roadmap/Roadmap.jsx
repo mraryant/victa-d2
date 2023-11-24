@@ -6,8 +6,9 @@
 import './Roadmap.css'; // Import your custom styles
 
 import RoadmapCard from '../../../components/Roadmap_card'; 
-import Carousel from "react-elastic-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+// import Carousel from "react-elastic-carousel";
+import Carousel from "@itseasy21/react-elastic-carousel";
+// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 // import { Carousel } from 'react-responsive-carousel';
 
 import r1 from "../../../assets/images/r1.jpg"

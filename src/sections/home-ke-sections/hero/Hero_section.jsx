@@ -5,7 +5,8 @@ import coin from "../../../assets/logo/VICTA COIN-1-02.png"
 // import blob from "../../../assets/logo/hero right blob.svg"
 // import astronot from "../../../assets/logo/hero right astronot.svg"
 import Navbar from "..//navbar/Navbar"
-import bghome from "../../../assets/images/e3.mp4"
+// import bghome from "../../../assets/images/e3.mp4"
+import bghome from "../../../assets/logo/e3_aMmiWCy6.mp4"
 import { useState } from "react"
 
 
@@ -67,9 +68,12 @@ const Hero_section = () => {
         </div>
         
         <div id="hero-gredient">
+        </div>
+        <div id="contract">
+
           <h5 style={{color:'white'}}>Contract Address</h5>
           <h3 style={{color:'white'}}>{ text}</h3>
-          <button className="button-87" style={{width:'20%' , }} onClick={handleCopy}><span ><img src='/src/assets/icons/copyi.png' style={{ width: 25, height: 25, marginRight: 15, }} alt="" />
+          <button className="button-87"   onClick={handleCopy}><span ><img src='/src/assets/icons/copyi.png' style={{ width: 25, height: 25, marginRight: 15, }} alt="" />
             Copy Address</span>
           </button>
           {copied && <div className="popup mt-3" style={{ color: "white", }}>Copied to clipboard!</div>}

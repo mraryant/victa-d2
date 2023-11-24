@@ -12,7 +12,7 @@ const Footer = () => {
                        <div className="row">
                           <div className="col-md-12 col-lg-8 mb-md-0 mb-4">
                              <h2 className="footer-heading"> VICTA </h2>
-                             <p>VICTA: Where Innovation Meets Efficiency in Blockchain Evolution. Streamlining utility, e-commerce, and more for a seamless digital experience. Embrace the Future with VICTA's Pioneering Solutions. </p>
+                             <p>VICTA: Where Innovation Meets Efficiency in Blockchain Evolution. Streamlining utility, e-commerce, and more for a seamless digital experience. Embrace the Future with {"VICTA's "}Pioneering Solutions. </p>
 
                           </div>
 
@@ -56,6 +56,7 @@ const Footer = () => {
                                 <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Twitter</a></li>
                                 <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Instagram</a></li>
                                 <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Googleplus</a></li>
+                                <li><p>info@victacapitals.com</p></li>
                              </ul>
                           </div>
                        </div>

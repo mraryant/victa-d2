@@ -109,6 +109,8 @@ background: linear-gradient(34deg, rgba(0, 114, 231, 1) 0%, rgba(0, 170, 154, 1)
 
  /* CSS */
  .button-87 {
+    /* width: 10vmax; */
+    font-size: 2.5vmin !important;
      margin: 10px;
      padding: 10px 15px;
      text-align: center;
