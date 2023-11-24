@@ -1,0 +1,27 @@
+#About-card-main{
+    width: 35vmax;
+    display: flex;
+    /* text-align: left; */
+    /* justify-content: flex-start; */
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 2vmax;
+
+}
+#About-card-main>h4{
+    /* text-transform: uppercase; */
+    font-weight: 400;
+     width: 70%;
+     
+  
+}
+#p2{
+    color: var(--orange);
+}
+
+@media (max-width:900px) {
+    #About-card-main {
+            width: 45vmax;
+    
+        }
+}

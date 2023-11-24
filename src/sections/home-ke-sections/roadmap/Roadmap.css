@@ -1,0 +1,114 @@
+ #roadmap-main{
+    display: flex;
+    flex-direction: column;
+    padding:6vmax 5vmax 6vmax 5vmax; 
+         gap: 3vmax;
+        justify-content: center;
+        align-self: center;
+        width: 100vw;
+           min-height: 60vh;
+           background-color: #020a34;
+ }
+ #roadmap-head{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+#roadmap-main>#roadmap-head>h1{
+    font-weight: 500;
+}
+#roadmap-main>#roadmap-head>p{
+    color: rgb(202, 198, 198);
+ 
+text-align: center;
+    align-self: center;
+}
+   
+ 
+.rec-dot_active {
+    background-color: rgb(164, 166, 167) !important;
+    box-shadow: 0 0 1px 3px rgba(208, 208, 216, 0.235)ant;
+}
+
+.rec-dot:focus,
+.rec-dot:hover {
+    box-shadow: 0 0 1px 3px rgba(38, 181, 224, 0.605) !important;
+}
+
+.rec-dot_active:focus,
+.rec-dot_active:hover {
+    background-color: rgb(127, 195, 243)  !important;
+    box-shadow: 0 0 1px 3px rgb(120, 185, 218) !important;
+}
+ 
+/* .rec.rec-arrow{
+
+    color: white;
+    background-color: #b9bcbe63;
+} */
+ 
+
+
+.rec-arrow {
+
+    background-color: var(--blue) !important;
+    transition: all 0.3s ease;
+    font-size: 1.1rem !important;
+    color: white !important;
+    width: 1.7rem !important;
+    height: 1.7rem !important;
+    min-width: 1.7rem !important;
+    line-height: 1.7rem !important;
+
+}
+
+.rec-arrow:hover:not(:disabled) {
+    transform: scale(1.2);
+}
+
+
+
+#R_h{
+    align-self: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.mySwiper {
+    
+    width: 95%;
+    height: 60vh;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+}

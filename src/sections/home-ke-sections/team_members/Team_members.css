@@ -1,0 +1,22 @@
+#team-main{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px 7vmin 20px 7vmin;
+}
+#team-main>h1{
+    color: var(--dark);
+    text-align: center;
+}
+#team-cards{
+display: flex;
+gap: 100px;
+min-height: fit-content;
+/* align-items: center; */
+/* background-color: aqua; */
+position: relative;
+justify-content: center;
+flex-wrap: wrap;
+}
+ 

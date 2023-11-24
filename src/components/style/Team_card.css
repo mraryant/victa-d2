@@ -1,0 +1,26 @@
+#team-card-main{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+     padding-top: 20px !important;
+    border-radius: 20px;
+    padding: 10px;
+   
+    flex-direction: column;
+    background-color: whitesmoke;
+    /* border: 1px solid var(--orange); */
+}
+#team-card-main>#image{
+    width: 185.36px;
+    height: 182.202px;
+    border-radius: 100%;
+}
+#team-card-main>h2{
+    text-align: center;
+    color: var(--light);
+}
+#team-card-main>p{
+    text-align: center;
+}
+ 
+

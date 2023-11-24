@@ -1,0 +1,87 @@
+#hero-bottom-main {
+    padding: 20px 7vmin 50px  7vmin;
+    margin-bottom: 30px;
+    min-height: 50vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vmax;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+}
+
+#hero-head>p {
+    color: rgb(152, 145, 145);
+    font-weight: 300;
+}
+
+#hero-head>h1 {
+    color: rgb(230, 225, 225);
+    font-weight: 300;
+}
+
+#mid-card {
+    margin-top: 80px;
+}
+
+#hero-bottom-left {
+    /* margin-top: -9vmax; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    gap: 4vmax;
+    width: 100%;
+
+    /* width: 100%; */
+
+
+}
+
+#hero-bottom-right {
+    margin-top: 20px;
+    width: 80%;
+}
+
+#hb-right-img {
+    display: flex;
+    margin-left: -20px;
+    gap: 4vmin;
+}
+
+#hero-bottom-right>p {
+    line-height: normal;
+}
+
+
+
+#hero-bottom-right {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 80%;
+}
+
+
+@media (max-width:837px) {
+    #hero-bottom-left {
+
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 3vmax;
+        width: 100%;
+    }
+
+    #mid-card {
+        margin-top: 0px;
+    }
+
+    #hero-bottom-main {
+        padding: 20px 7vmin 20px 7vmin;
+        padding-bottom: 100px;
+    }
+}

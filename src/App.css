@@ -1,0 +1,57 @@
+ :root{
+    --dark:#012169;
+    --mediam:#012268;
+    --light:#189AD6;
+    
+ }
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+   /* font-family: 'Roboto', sans-serif; */
+   font-family: 'Montserrat', sans-serif;
+    
+ }
+ html ,body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x:hidden;
+ }
+
+ 
+
+
+
+
+
+
+ /* width */
+ ::-webkit-scrollbar {
+    width:7px;
+    opacity: 0;
+ }
+
+ /* Track */
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(18, 10, 10);
+    mix-blend-mode: difference;
+   z-index: -99;
+    border-radius: 10px;
+ }
+
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+      background-color: darkgrey;
+    border-radius: 10px;
+   outline: 1px solid slategrey;
+ }
+
+ /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(73, 83, 94);
+ }
