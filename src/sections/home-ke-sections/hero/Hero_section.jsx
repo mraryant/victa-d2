@@ -8,7 +8,7 @@ import Navbar from "..//navbar/Navbar"
 // import bghome from "../../../assets/images/e3.mp4"
 import bghome from "../../../assets/logo/e3_aMmiWCy6.mp4"
 import { useState } from "react"
-
+import copy from "/src/assets/icons/copyi.png"
 
 
 const Hero_section = () => {
@@ -53,7 +53,7 @@ const Hero_section = () => {
           <h6>VICTA Is A Groundbreaking Decentralized Platform  </h6>
           <div id="hero-buttons">
 
-            <button className="button-87 " type="submit" style={{ fontSize: 14 }}>Buy Tokens</button>
+            <button className="button-87 " type="submit" style={{ fontSize: 14 }}> <a style={{textDecoration:'none', color:'white'}} target="block" href="https://www.victacapitals.com/">Buy Tokens</a></button>
             <button className="button-87 " type="submit" style={{ fontSize: 14 }}>Whitepaper</button>
           </div>
 
@@ -73,7 +73,7 @@ const Hero_section = () => {
 
           <h5 style={{color:'white'}}>Contract Address</h5>
           <h3 style={{color:'white'}}>{ text}</h3>
-          <button className="button-87"   onClick={handleCopy}><span ><img src='/src/assets/icons/copyi.png' style={{ width: 25, height: 25, marginRight: 15, }} alt="" />
+          <button className="button-87"   onClick={handleCopy}><span ><img src={copy} style={{ width: 25, height: 25, marginRight: 15, }} alt="" />
             Copy Address</span>
           </button>
           {copied && <div className="popup mt-3" style={{ color: "white", }}>Copied to clipboard!</div>}

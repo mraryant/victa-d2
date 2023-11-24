@@ -51,7 +51,7 @@
     color: black;
     /* color: white; */
     z-index: 2;
-    width: 70%;
+    width: 80%;
     height: fit-content;
     display: flex;
     align-items: center;
@@ -183,6 +183,7 @@
 
     #hero-left>h1 {
         text-align: center;
+        width: 120%;
     }
 
     #hero-left>h6 {

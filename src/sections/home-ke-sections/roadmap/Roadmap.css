@@ -19,6 +19,7 @@
 }
 #roadmap-main>#roadmap-head>p{
     color: rgb(202, 198, 198);
+    width: 95vmin;
  
 text-align: center;
     align-self: center;

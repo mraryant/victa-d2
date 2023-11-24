@@ -93,7 +93,7 @@
 }
  
 .usecasemain {
-    height: 40vmax;
+    height: 38vmax;
     display: flex;
     /* justify-content: center; */
     flex-direction: column;

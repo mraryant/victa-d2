@@ -7,7 +7,8 @@ const Tokonomics = () => {
     <>
       <div id="toko-head">
       <h1 id="toko-h" >TOKENOMICS</h1>
-      <p id="toko-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam quisquam earum impedit tempore voluptatum ullam aspernatur omnis cupiditate ducimus reiciendis. Aperiam repudiandae vitae dolorem nemo!</p>
+        <p id="toko-p">
+          VCTA serves as a versatile medium for seamless utility payments, including mobile recharges, electricity bills, and fast tag transactions within the utility wallet. Additionally, it plays a key role in the decentralized exchange (DEXA), enabling secure and efficient transactions, enhancing liquidity and platform functionality.</p>
 
       </div>
       <div id="toko-main" >
@@ -43,27 +44,27 @@ const Tokonomics = () => {
         <div id="toko-right">
           <h5>TOKEN DISTRIBUTION</h5>
           <div className="toko-card" style={{ borderLeft: '9px solid #084DA5' }}>
-            <h5> <span style={{ color:'#084DA5'}}>35%</span> COMMUNITY</h5>
+            <h5> <span style={{ color:'#084DA5'}}> 35%</span> COMMUNITY</h5>
             {/* <p>To create the pair on DEX</p> */}
           </div>
           <div className="toko-card" style={{ borderLeft: '9px solid #057DCF' }}>
-            <h5> <span style={{ color:'#057DCF'}}>20%</span>BURNING</h5>
+            <h5> <span style={{ color:'#057DCF'}}> 20%</span>BURNING</h5>
             {/* <p>To create the pair on DEX</p> */}
           </div>
           <div className="toko-card" style={{ borderLeft: '9px solid #01A7FE' }}>
-            <h5> <span style={{ color:'#01A7FE'}}>15%</span> FOUNDER</h5>
+            <h5> <span style={{ color:'#01A7FE'}}> 15%</span> FOUNDER</h5>
             {/* <p>To create the pair on DEX</p> */}
           </div>
           <div className="toko-card" style={{ borderLeft: '9px solid #01D5FF' }}>
-            <h5> <span style={{ color:'#01D5FF'}}>10%</span> TREASURY</h5>
+            <h5> <span style={{ color:'#01D5FF'}}> 10%</span> TREASURY</h5>
             {/* <p>To create the pair on DEX</p> */}
           </div>
           <div className="toko-card" style={{ borderLeft: '9px solid #5BD5FF' }}>
-            <h5> <span style={{ color:'#5BD5FF'}}>10%</span> ADVISORS</h5>
+            <h5> <span style={{ color:'#5BD5FF'}}> 10%</span> ADVISORS</h5>
             {/* <p>To create the pair on DEX</p> */}
           </div>
           <div className="toko-card" style={{ borderLeft: '9px solid #99E7FF' }}>
-            <h5> <span style={{ color:'#99E7FF'}}>10%</span>INVESTOR</h5>
+            <h5> <span style={{ color:'#99E7F'}}> 10%</span>INVESTOR</h5>
             {/* <p>To create the pair on DEX</p> */}
           </div>
           

@@ -46,7 +46,8 @@ export default function Roadmap() {
         <div id="roadmap-head">
 
           <h1 style={{ textAlign: "center", color: 'var(--light)' }}>ROADMAP</h1>
-          <p>Guiding {"VICTA's"} Evolutionary Journey: Unveiling strategic phases, fostering growth, and embracing innovations for a dynamic and thriving ecosystem.</p>
+          <p>
+            This involves strategic planning to ensure {"VICTA's"} continual evolution, promoting growth, and integrating innovations to maintain a dynamic and thriving ecosystem that meets evolving user needs.</p>
         </div>
         <div className="App">
           <Carousel breakPoints={breakPoints}
