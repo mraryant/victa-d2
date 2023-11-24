@@ -22,7 +22,7 @@ const Hero_section = () => {
         <Hero_bottom_cards
           image={hb_i1}
           h4={'Token Detail'}
-          pera={"VCTA, the native token of the VICTA ecosystem, is a meticulously crafted BEP20 token on the Binance Smart Chain with 450 million total supply and 18 decimal places, serving as the primary medium of exchange for the project's ambitious goals."}
+          pera={"VICTA, the native token of the VICTA ecosystem, is a meticulously crafted BEP20 token on the Binance Smart Chain with 450 million total supply and 18 decimal places, serving as the primary medium of exchange for the project's ambitious goals."}
         />
 
         <div id="mid-card"  >

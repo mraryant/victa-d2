@@ -1,4 +1,10 @@
 import "./Footer.css"
+import ic1 from "../../../assets/logo/ic1.png"
+import ic2 from "../../../assets/logo/ic2.webp"
+import ic3 from "../../../assets/logo/ic3.png"
+import ic4 from "../../../assets/logo/ic4.png"
+import ic5 from "../../../assets/logo/ic5.webp"
+
 
 const Footer = () => {
   return (
@@ -13,7 +19,7 @@ const Footer = () => {
                           <div className="col-md-12 col-lg-8 mb-md-0 mb-4">
                              <h2 className="footer-heading"> VICTA </h2>
                              <p>VICTA: Where Innovation Meets Efficiency in Blockchain Evolution. Streamlining utility, e-commerce, and more for a seamless digital experience. Embrace the Future with {"VICTA's "}Pioneering Solutions. </p>
-
+                             <a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img src={ic5} style={{ height: 20, width: 20 }} alt="" /> info@victacapitals.com</a>
                           </div>
 
                        </div>
@@ -52,10 +58,11 @@ const Footer = () => {
                           <div className="col-md-3 mb-md-0 mb-4 border-left">
                              <h2 className="footer-heading">Social</h2>
                              <ul className="list-unstyled">
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"><i className="ri-facebook-circle-line"></i> Facebook</a></li>
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"><i className="ri-twitter-x-line"></i> X - (Twitter)</a></li>
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"><i className="ri-instagram-line"></i> Instagram</a></li>
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">  info@victacapitals.com</a></li>
+                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img src={ic1} style={{height:20 ,width:20}} alt="" /> Facebook</a></li>
+                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img src={ic2} style={{ height: 20, width: 20 }} alt="" /> X - (Twitter)</a></li>
+                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img src={ic3} style={{ height: 20, width: 20 }} alt="" /> Instagram</a></li>
+                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"> <img src={ic4} style={{ height: 20, width: 20 }} alt="" /> YouTube</a></li>
+                                <li></li>
                                 {/* <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Googleplus</a></li> */}
                                  
                              </ul>

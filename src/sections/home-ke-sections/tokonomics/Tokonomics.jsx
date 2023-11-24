@@ -8,7 +8,7 @@ const Tokonomics = () => {
       <div id="toko-head">
       <h1 id="toko-h" >TOKENOMICS</h1>
         <p id="toko-p">
-          VCTA serves as a versatile medium for seamless utility payments, including mobile recharges, electricity bills, and fast tag transactions within the utility wallet. Additionally, it plays a key role in the decentralized exchange (DEXA), enabling secure and efficient transactions, enhancing liquidity and platform functionality.</p>
+          VICTA serves as a versatile medium for seamless utility payments, including mobile recharges, electricity bills, and fast tag transactions within the utility wallet. Additionally, it plays a key role in the decentralized exchange (DEXA), enabling secure and efficient transactions, enhancing liquidity and platform functionality.</p>
 
       </div>
       <div id="toko-main" >

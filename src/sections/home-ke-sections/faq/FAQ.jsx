@@ -32,7 +32,7 @@ const FAQ = () => {
                       <div id="collapseTwo" className="accordion-collapse collapse"
                         data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                          <p> VICTA is a blockchain ecosystem designed to redefine how users interact with decentralized technologies. It introduces the VCTA token, unlocking a world of utility and innovation within our diverse ecosystem.</p>
+                          <p> VICTA is a blockchain ecosystem designed to redefine how users interact with decentralized technologies. It introduces the VICTA token, unlocking a world of utility and innovation within our diverse ecosystem.</p>
                         </div>
                       </div>
                     </div>
@@ -45,12 +45,12 @@ const FAQ = () => {
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseThree"
                         aria-expanded="false"
-                        aria-controls="collapseThree">How does the VCTA token work?</button>
+                        aria-controls="collapseThree">How does the VICTA token work?</button>
                       </h2>
                       <div id="collapseThree" className="accordion-collapse collapse"
                         data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                          <p>The VCTA token is at the heart of VICTA, serving as a utility for transactions, staking, and accessing various features. Holders can use it for utility payments, e-commerce transactions, and even earn rewards for participating in the ecosystem.</p>
+                          <p>The VICTA token is at the heart of VICTA, serving as a utility for transactions, staking, and accessing various features. Holders can use it for utility payments, e-commerce transactions, and even earn rewards for participating in the ecosystem.</p>
                         </div>
                       </div>
                     </div>
@@ -92,11 +92,11 @@ const FAQ = () => {
                         data-bs-toggle="collapse"
                         data-bs-target="#collapsesix"
                         aria-expanded="false"
-                        aria-controls="collapsesix"> Can I stake my VCTA tokens?</button></h2>
+                        aria-controls="collapsesix"> Can I stake my VICTA tokens?</button></h2>
                       <div id="collapsesix" className="accordion-collapse collapse"
                         data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                          <p> Yes, VICTA offers staking functionalities, allowing users to lock up their VCTA tokens and earn rewards. Staking not only incentivizes participation but also contributes to the stability and security of the VICTA network.
+                          <p> Yes, VICTA offers staking functionalities, allowing users to lock up their VICTA tokens and earn rewards. Staking not only incentivizes participation but also contributes to the stability and security of the VICTA network.
                           </p>
                         </div>
                       </div>
