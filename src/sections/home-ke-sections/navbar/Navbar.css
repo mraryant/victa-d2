@@ -109,8 +109,12 @@ background: linear-gradient(34deg, rgba(0, 114, 231, 1) 0%, rgba(0, 170, 154, 1)
  /* < !-- HTML !--><button class="button-87" role="button">Button 87</button> */
 
  /* CSS */
+ .button-87:hover{
+    transform: scale(1.1);
+ }
  .button-87 {
     /* width: 10vmax; */
+    transition: all ease-in-out 0.4s;
     font-size: 2.5vmin !important;
      margin: 10px;
      padding: 10px 15px;

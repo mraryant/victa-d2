@@ -55,7 +55,7 @@ const Navbar = () => {
                                 <a className="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About</a>
+                                <a className="nav-link" href="#about-main">About</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Wallet</a>
@@ -67,13 +67,13 @@ const Navbar = () => {
                                 <a className="nav-link" href="#">Team</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Tokenomics</a>
+                                <a className="nav-link" href="#toko-head">Tokenomics</a>
                             </li>
                         </ul>
                         <form className="d-flex ngflex">
 
                             {/* <button className="button-87 btn  " type="submit" style={{ width: "100%", fontSize: 14 }}>Buy Tokens</button> */}
-                            <button className="button-87 btn2  " type="submit" style={{ width: "100%", fontSize: 14 }}>Buy Tokens</button>
+                            <button className="button-87 btn2  " style={{ width: "100%", fontSize: 14 }}> <a style={{ textDecoration: 'none', color: 'white' }} target="block" href="https://presale.victacapitals.com/">Buy Tokens </a> </button>
                         </form>
                     </div>
                 </div>

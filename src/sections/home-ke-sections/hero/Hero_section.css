@@ -122,14 +122,20 @@
 
 }
     
+
 #hero-right {
-    height: 50vmin;
+    height: 60vmin;
     width: 100%;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    /* transition: all ease-in-out 0.4s; */
     /* margin-bottom: 40px; */
 }
 
-#hero-right>img {
+#right_img {
     object-fit: contain;
     
     position: absolute;

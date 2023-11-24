@@ -2,6 +2,7 @@ import About_card from "../../../components/About_card"
 import "./About_section.css"
 import about_left_img from "../../../assets/logo/hero right  img.svg"
 import blob from "../../../assets/logo/hero right blob.svg"
+import { motion } from "framer-motion"
 
 const About_section = () => {
   return (
@@ -44,10 +45,25 @@ const About_section = () => {
             
           </div>
 
-          <div id="about-mid-right">
+          <motion.div id="about-mid-right"
+            initial={{
+              top:"-30px",
+              // scale: 1
+            }}
+            transition={{
+              ease: "easeInOut",
+              duration: 3,
+              repeat: Infinity,
+              repeatType: 'reverse',
+            }}
+            whileInView={{
+              top: "0px",
+              // scale: 1.1,
+            }}
+          >
             <img id="img1" src={blob} alt="" />
             <img id="img2" src={about_left_img} alt="" />
-          </div>
+          </motion.div>
 
         </div>
 

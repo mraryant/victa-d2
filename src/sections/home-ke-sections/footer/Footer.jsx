@@ -52,10 +52,10 @@ const Footer = () => {
                           <div className="col-md-3 mb-md-0 mb-4 border-left">
                              <h2 className="footer-heading">Social</h2>
                              <ul className="list-unstyled">
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Facebook</a></li>
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Twitter</a></li>
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Instagram</a></li>
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Googleplus</a></li>
+                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"><i className="ri-facebook-circle-line"></i></a></li>
+                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"><i className="ri-twitter-x-line"></i></a></li>
+                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"><i className="ri-instagram-line"></i></a></li>
+                                {/* <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Googleplus</a></li> */}
                                 <li><p>info@victacapitals.com</p></li>
                              </ul>
                           </div>

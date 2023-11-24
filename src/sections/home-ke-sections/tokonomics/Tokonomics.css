@@ -5,6 +5,9 @@
     align-items: center;
    
 }
+#util-1:hover{
+    transform: scale(1.1);
+}
 #util-1{
     display: flex;
     border: 2px solid skyblue;
@@ -12,6 +15,7 @@
     border-radius: 10px;
     padding: 14px;
     gap: 40px;
+    transition: all ease-in-out 0.4s;
 }
 #util-1>span{
     font-weight: 700;
