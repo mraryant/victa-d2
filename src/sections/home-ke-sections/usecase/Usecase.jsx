@@ -21,7 +21,7 @@ const usecase = () => {
       }}
         whileInView={{ opacity: 1 }}>
         <p className='s3headersmall'>Usecase</p>
-        <p className='s3header1'>The versatility of VCTA manifests through its diverse use cases, enhancing user engagement and utility within the VICTA ecosystem. Some key use cases include
+        <p className='s3header1'>The versatility of VICTA manifests through its diverse use cases, enhancing user engagement and utility within the VICTA ecosystem. Some key use cases include
 </p>
 
       </motion.div>
@@ -102,7 +102,7 @@ const usecase = () => {
               </div>
               <div>
                 <p className='ucheading'>E-Commerce Transactions</p>
-                <p className='ucpara'>Users can utilize VCTA for transactions within the {"Shop Saver"} feature, making purchases across a wide range of e-commerce products and services.
+                <p className='ucpara'>Users can utilize VICTA for transactions within the {"Shop Saver"} feature, making purchases across a wide range of e-commerce products and services.
 
                 </p>
                 <p className='ucbutton'>Learn More ^</p>
@@ -131,7 +131,7 @@ const usecase = () => {
               </div>
               <div>
                 <p className='ucheading'>EV App</p>
-                <p className='ucpara'>VCTA facilitates transactions within the dedicated EV App, allowing users to redeem tokens and purchase vouchers for electric vehicle-related services.</p>
+                <p className='ucpara'>VICTA facilitates transactions within the dedicated EV App, allowing users to redeem tokens and purchase vouchers for electric vehicle-related services.</p>
                 {/* <p className='ucbutton'>Learn More ^</p> */}
               </div>
 
@@ -158,7 +158,7 @@ const usecase = () => {
               </div>
               <div>
                 <p className='ucheading'>Short Video Hosting Rewards.</p>
-                <p className='ucpara'>Content creators are rewarded with VCTA for hosting short videos, fostering engagement and content creation within the platform.
+                <p className='ucpara'>Content creators are rewarded with VICTA for hosting short videos, fostering engagement and content creation within the platform.
                 </p>
                 {/* <p className='ucbutton'>Learn More ^</p> */}
               </div>
@@ -185,7 +185,7 @@ const usecase = () => {
               </div>
               <div>
                 <p className='ucheading'>OTT Platform Subscriptions.</p>
-                <p className='ucpara'> Users can subscribe to the  OTT platform using VCTA, gaining access to a diverse array of content, including local markets, gaming, short storytelling, and motivational pieces.
+                <p className='ucpara'> Users can subscribe to the  OTT platform using VICTA, gaining access to a diverse array of content, including local markets, gaming, short storytelling, and motivational pieces.
 
                 </p>
                 {/* <p className='ucbutton'>Learn More ^</p> */}
@@ -215,7 +215,7 @@ const usecase = () => {
               </div>
               <div>
                 <p className='ucheading'>Dating App Interactions</p>
-                <p className='ucpara'> VCTA plays a role in the dating app, potentially facilitating transactions, rewarding engagements, or unlocking premium features.
+                <p className='ucpara'> VICTA plays a role in the dating app, potentially facilitating transactions, rewarding engagements, or unlocking premium features.
 
                 </p>
                 {/* <p className='ucbutton'>Learn More ^</p> */}
@@ -244,7 +244,7 @@ const usecase = () => {
               </div>
               <div>
                 <p className='ucheading'>Green Energy Blockchain</p>
-                <p className='ucpara'>VCTA is integral to transactions within the green energy blockchain, supporting renewable energy projects with lower transaction costs.</p>
+                <p className='ucpara'>VICTA is integral to transactions within the green energy blockchain, supporting renewable energy projects with lower transaction costs.</p>
                 {/* <p className='ucbutton'>Learn More ^</p> */}
               </div>
 
@@ -270,7 +270,7 @@ const usecase = () => {
               </div>
               <div>
                 <p className='ucheading'>DEXA Transactions</p>
-                <p className='ucpara'>In the decentralized exchange (DEXA), users can utilize VCTA for secure and efficient transactions, contributing to liquidity and platform functionality.</p>
+                <p className='ucpara'>In the decentralized exchange (DEXA), users can utilize VICTA for secure and efficient transactions, contributing to liquidity and platform functionality.</p>
                 {/* <p className='ucbutton'>Learn More ^</p> */}
               </div>
 
