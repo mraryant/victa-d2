@@ -24,12 +24,12 @@ const Footer = () => {
                              <h2 className="footer-heading">Quick Links</h2>
                              <ul className="list-unstyled">
 
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">About</a></li>
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Roadmap</a></li>
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Tokenomics</a></li>
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Whitepaper</a></li>
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Usecase</a></li>
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Team Members</a></li>
+                                <li><a href="#about-main" style={{ textDecoration: 'none' }} className="py-1 d-block">About</a></li>
+                                <li><a href="#roadmap-main" style={{ textDecoration: 'none' }} className="py-1 d-block">Roadmap</a></li>
+                                <li><a href="#toko-head" style={{ textDecoration: 'none' }} className="py-1 d-block">Tokenomics</a></li>
+                                <li><a href="#hero-main" style={{ textDecoration: 'none' }} className="py-1 d-block">Whitepaper</a></li>
+                                <li><a href="#usecase-main" style={{ textDecoration: 'none' }} className="py-1 d-block">Usecase</a></li>
+                                {/* <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Team Members</a></li> */}
                              </ul>
                           </div>
                           <div className="col-md-3 mb-md-0 mb-4 border-left">
@@ -52,11 +52,12 @@ const Footer = () => {
                           <div className="col-md-3 mb-md-0 mb-4 border-left">
                              <h2 className="footer-heading">Social</h2>
                              <ul className="list-unstyled">
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"><i className="ri-facebook-circle-line"></i></a></li>
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"><i className="ri-twitter-x-line"></i></a></li>
-                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"><i className="ri-instagram-line"></i></a></li>
+                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"><i className="ri-facebook-circle-line"></i> Facebook</a></li>
+                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"><i className="ri-twitter-x-line"></i> X - (Twitter)</a></li>
+                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block"><i className="ri-instagram-line"></i> Instagram</a></li>
+                                <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">  info@victacapitals.com</a></li>
                                 {/* <li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Googleplus</a></li> */}
-                                <li><p>info@victacapitals.com</p></li>
+                                 
                              </ul>
                           </div>
                        </div>
