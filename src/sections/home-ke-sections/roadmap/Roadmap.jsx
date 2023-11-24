@@ -13,12 +13,13 @@ import Carousel from "@itseasy21/react-elastic-carousel";
 
 import r1 from "../../../assets/images/r1.jpg"
 import r2 from "../../../assets/images/r2.jpg"
-import r3 from "../../../assets/images/r3.jpg"
-import r4 from "../../../assets/images/r4.png"
-import r5 from "../../../assets/images/r5.jpg"
+import r3 from "../../../assets/images/r4.jpg"
+import r4 from "../../../assets/images/r5.jpg"
+import r5 from "../../../assets/images/r61.jpg"
 import r6 from "../../../assets/images/r6.jpg"
 import r7 from "../../../assets/images/r7.jpg"
 import r8 from "../../../assets/images/r8.jpg"
+import r9 from "../../../assets/images/r9.jpg"
  
  
 
@@ -58,8 +59,8 @@ export default function Roadmap() {
               bg="#E3EDFF"
               h4="PHASE - 1 "
               image={r1}
-              h4_2=" IDEATION & TOKEN DEVELOPMENT"
-              p= "VICTA ideates core concepts, vision, and utility token (VCTA), focusing on features and ecosystem integration."
+              h4_2=" Utility Wallet Launch"
+              p= "Mobile, electricity, Fastag, water, gas, and corporation bill recharge. Flight, bus booking, insurance renewal, and solar panel services available."
             >One</RoadmapCard>
 
 
@@ -67,8 +68,9 @@ export default function Roadmap() {
               bg="#D9EAE8"
               h4="PHASE - 2"
               image={r2}
-              h4_2="ICO MARKETING"
-              p="Launch ICO marketing, promote token sale, build awareness, create community for VICTA project funding."
+              h4_2=" Cashback Utility Integration "
+              p="
+E-commerce: clothing, shoes, beauty, grocery, gadgets, home appliances, decor. Events, insurance, hotels, tours, gaming, fintech, cashback services."
             >One</RoadmapCard>
 
 
@@ -76,55 +78,59 @@ export default function Roadmap() {
               bg="#F2E7E4"
               h4="PHASE - 3 "
               image={r3}
-              h4_2="STAKING AND DAPP"
-              p="Introduce staking for token rewards, foster user loyalty; unveil DApps for enhanced VICTA functionality."
+              h4_2="EV App Development"
+              p="
+EV App launched with token redemption and unit purchases. One-stop solution for electric bike users, including maintenance services."
             >One</RoadmapCard>
 
             <RoadmapCard
-              bg="#F2E7E4"
+              bg="#E3EDFF"
               h4="PHASE - 4"
               image={r4}
-              h4_2="CMC Listing"
-              p="Achieve CoinMarketCap listing, boosting VICTA's visibility, credibility, and accessibility in the cryptocurrency community."
+              h4_2="Short Videos Platform"
+              p="
+Short videos platform launch with viewer channel subscriptions and reward tokens for user engagement."
             >One</RoadmapCard>
 
 
 
             <RoadmapCard
-              bg="#F2E7E4"
+              bg="#D9EAE8"
               h4="PHASE - 5"
               image={r5}
-              h4_2="PancakeSwap Listing"
-              p="List on PancakeSwap, Binance Smart Chain's DEX, integrating VICTA into DeFi, enhancing liquidity and decentralized trading."
+              h4_2=" Metaverse OTT Platform"
+              p="Local market, gaming, short storytelling, and motivational content services introduced, seamlessly integrated with the immersive metaverse experience."
             >One</RoadmapCard>
             <RoadmapCard
               bg="#F2E7E4"
               h4="PHASE - 6"
               image={r6}
-              h4_2="Mobile CRM"
-              p=" Launch Mobile CRM for enhanced user engagement and support, enabling seamless VICTA ecosystem interaction on mobile devices."
+              h4_2="Metaverse Expansion"
+              p=" Metaverse development featuring VR, AR, portals, gaming, and adventure parks. Seamless integration of adventure parks enhances the immersive virtual experience."
             >One</RoadmapCard>
             <RoadmapCard
-              bg="#F2E7E4"
+              bg="#E3EDFF"
               h4="PHASE - 7"
               image={r7}
-              h4_2="Decentralized Wallet"
-              p="Unveil decentralized wallet in seventh quarter, empowering users with secure control over VCTA token storage and transactions."
+              h4_2=" Dating App Launch"
+              p="
+Dating app launch with peer-to-peer services and a bucket list feature for shared interests. Group chats, family get-togethers, and metaverse travel services integrated."
+            >One</RoadmapCard>
+            <RoadmapCard
+              bg="#D9EAE8"
+              h4="PHASE - 8"
+              image={r8}
+              h4_2="Green Energy Blockchain"
+              p="
+Blockchain powered by renewable energy introduced, hosting green energy projects with reduced fees for a sustainable and eco-friendly approach."
             >One</RoadmapCard>
             <RoadmapCard
               bg="#F2E7E4"
-              h4="PHASE - 8"
-              image={r8}
-              h4_2="Listing on Global Exchange"
-              p="Secure global exchange listing to expand VICTA's reach, enhance liquidity, and boost recognition globally."
-            >One</RoadmapCard>
-            {/* <RoadmapCard
-              bg="#F2E7E4"
               h4="PHASE - 9"
-              image=""
-              h4_2="(UPCOMING)"
-              p=" UPCOMING, phase in ninth quarter signals ongoing evolution, teasing new features, partnerships, and expansions in VICTA ecosystem.."
-            >One</RoadmapCard> */}
+              image={r9}
+              h4_2="(Coming Soon)"
+              p=" Future developments: Ongoing innovation and growth driven by user feedback and industry trends to meet evolving needs effectively."
+            >One</RoadmapCard>
             
           </Carousel>
         </div>

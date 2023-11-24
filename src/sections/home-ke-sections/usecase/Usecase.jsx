@@ -5,7 +5,7 @@ import u1 from '../../../assets/icons/u1.svg'
 import u2 from '../../../assets/icons/u2.svg'
 import u3 from '../../../assets/icons/u3.svg'
 import u4 from '../../../assets/icons/u4.svg'
-// import u5 from '../../../assets/icons/u5.svg'
+import u5 from '../../../assets/icons/u5.svg'
 import u6 from '../../../assets/icons/u6.svg'
 import u7 from '../../../assets/icons/u7.svg'
 import u8 from '../../../assets/icons/u8.svg'
@@ -158,6 +158,34 @@ const usecase = () => {
               <div>
                 <p className='ucheading'>Short Video Hosting Rewards.</p>
                 <p className='ucpara'>Content creators are rewarded with VCTA for hosting short videos, fostering engagement and content creation within the platform.
+                </p>
+                {/* <p className='ucbutton'>Learn More ^</p> */}
+              </div>
+
+            </motion.div>
+            <motion.div
+              className='usecase1'
+              initial={{
+                opacity: 0,
+                x: 200
+              }}
+              transition={{
+                ease: "easeInOut",
+                duration: 1,
+              }}
+              whileInView={{
+                opacity: 1,
+                x: 0,
+                duration: 20,
+              }}
+              >
+              <div>
+                <img src={u5} style={{ width: 50, height: 50, marginRight: 5 }} />
+              </div>
+              <div>
+                <p className='ucheading'>OTT Platform Subscriptions.</p>
+                <p className='ucpara'> Users can subscribe to the  OTT platform using VCTA, gaining access to a diverse array of content, including local markets, gaming, short storytelling, and motivational pieces.
+
                 </p>
                 {/* <p className='ucbutton'>Learn More ^</p> */}
               </div>

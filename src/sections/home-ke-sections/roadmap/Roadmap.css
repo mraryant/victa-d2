@@ -25,7 +25,10 @@ text-align: center;
     align-self: center;
 }
    
- 
+ button.rec-dot {
+     background-color: rgb(189, 185, 185);
+     box-shadow: 0 0 1px 3px rgba(16, 180, 235, 0.5);
+ }
 .rec-dot_active {
     background-color: rgb(164, 166, 167) !important;
     box-shadow: 0 0 1px 3px rgba(208, 208, 216, 0.235)ant;

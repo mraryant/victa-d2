@@ -25,7 +25,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
 }
  
@@ -35,7 +35,7 @@
 }
 #image_div{
     height: 10vmax;
-    width: 80%;
+    width: 70%;
     overflow: hidden;
     border: 2px solid var(--light);
     border-radius: 70px;

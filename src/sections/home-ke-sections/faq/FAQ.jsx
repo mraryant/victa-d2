@@ -66,7 +66,7 @@ const FAQ = () => {
                       <div id="collapseFour" className="accordion-collapse collapse"
                         data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                          <p>VICTA offers a range of features, including utility wallets for bill payments, Shop Saver for exclusive discounts, an EV App for electric vehicle users, short video hosting, and a venture into the metaverse.</p>
+                          <p>VICTA offers a range of features, including utility wallets for bill payments, Shop Saver for exclusive discounts, an EV App for electric vehicle users, short video hosting,OTT platform, and a venture into the metaverse.</p>
                         </div>
                       </div>
                     </div>
@@ -122,20 +122,17 @@ const FAQ = () => {
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseeight"
                         aria-expanded="false"
-                        aria-controls="collapseeight">  What is the roadmap for VICTA's future development?
+                        aria-controls="collapseeight">  What is the roadmap for {"VICTA's"} future development?
                       </button></h2>
                       <div id="collapseeight" className="accordion-collapse collapse"
                         data-bs-parent="#accordionExample">
                         <div className="accordion-body">
                           <p> Our roadmap outlines key milestones, including ICO marketing, staking and DApp development, listings on major exchanges, and mobile CRM integration. We are committed to continuous development and improvement.
-
+                          
                           </p>
                         </div>
                       </div>
                     </div>
-
-
-
                   </div>
                 </div>
               </div>
@@ -147,6 +144,6 @@ const FAQ = () => {
   )
 }
 
-export default FAQ
+export default FAQ 
 
 

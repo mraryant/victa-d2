@@ -63,7 +63,7 @@ const Tokonomics = () => {
             <h5> <span style={{ color:'#5BD5FF'}}> 10%</span> ADVISORS</h5>
             {/* <p>To create the pair on DEX</p> */}
           </div>
-          <div className="toko-card" style={{ borderLeft: '9px solid #99E7FF' }}>
+          <div className="toko-card" style={{ borderLeft: '9px solid #5BD5FF' }}>
             <h5> <span style={{ color:'#99E7F'}}> 10%</span>INVESTOR</h5>
             {/* <p>To create the pair on DEX</p> */}
           </div>
