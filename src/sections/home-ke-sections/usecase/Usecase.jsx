@@ -75,7 +75,7 @@ const usecase = () => {
               </div>
               <div>
                 <p className='ucheading'>Utility Payments</p>
-                <p className='ucpara'>VCTA serves as the medium for seamless utility payments, encompassing mobile recharges, electricity bills, fast tag transactions, and various other bill settlements within the utility wallet.</p>
+                <p className='ucpara'>VICTA serves as the medium for seamless utility payments, encompassing mobile recharges, electricity bills, fast tag transactions, and various other bill settlements within the utility wallet.</p>
                 {/* <p className='ucbutton'>Learn More ^</p> */}
               </div>
 
