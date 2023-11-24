@@ -1,7 +1,8 @@
 import About_card from "../../../components/About_card"
 import "./About_section.css"
-import about_left_img from "../../../assets/logo/hero right  img.svg"
-import blob from "../../../assets/logo/hero right blob.svg"
+import ab1 from "../../../assets/images/ab1.svg"
+// import about_left_img from "../../../assets/logo/hero right  img.svg"
+// import blob from "../../../assets/logo/hero right blob.svg"
 import { motion } from "framer-motion"
 
 const About_section = () => {
@@ -61,8 +62,10 @@ const About_section = () => {
               // scale: 1.1,
             }}
           >
-            <img id="img1" src={blob} alt="" />
-            <img id="img2" src={about_left_img} alt="" />
+
+            {/* <img id="img1" src={blob} alt="" /> */}
+            {/* <img id="img2" src={about_left_img} alt="" /> */}
+            <img id="img2" src={ab1} alt="" />
           </motion.div>
 
         </div>

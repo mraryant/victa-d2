@@ -1,6 +1,7 @@
 import "./Usecase.css"
 import { motion } from "framer-motion"
-import uleftimg from "../../../assets/images/usecase left 2.jpg"
+// import uleftimg from "../../../assets/images/usecase left 2.jpg"
+import uleftimg from "../../../assets/images/ab2.jpg"
 import u1 from '../../../assets/icons/u1.svg'
 import u2 from '../../../assets/icons/u2.svg'
 import u3 from '../../../assets/icons/u3.svg'
