@@ -7,7 +7,7 @@ import coin from "../../../assets/logo/VICTA COIN-1-02.png"
 import Navbar from "..//navbar/Navbar"
 // import bghome from "../../../assets/images/e3.mp4"
 import bghome from "../../../assets/logo/e3_aMmiWCy6.mp4"
-import { useState } from "react"
+import {    useState } from "react"
 import copy from "/src/assets/icons/copyi.png"
 import { Tilt } from 'react-tilt'
 import { motion } from "framer-motion"
@@ -41,6 +41,12 @@ const Hero_section = () => {
         console.error('Copy failed: ', err);
       });
   };
+
+  
+ 
+
+
+
   return (
     <>
       <div id="hero-main">
