@@ -30,7 +30,7 @@ const Hero_section = () => {
   const text = "0x7f376fad327f428052ccad5d810bc04d2d2cba0d"
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('0x9e3F29552c7D4651BF14bE395C68032Ef3C91901') // Replace with the text you want to copy
+    navigator.clipboard.writeText('0x7f376fad327f428052ccad5d810bc04d2d2cba0d') // Replace with the text you want to copy
       .then(() => {
         setCopied(true);
         setTimeout(() => {
